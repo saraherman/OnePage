@@ -13,5 +13,7 @@ $( document ).ready(function() {
 		
 	});
 	$('.single-item').slick();
-
+	$('.slider2').slick({
+		
+	});
 });

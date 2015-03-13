@@ -89,7 +89,7 @@ header{padding-bottom: 87px;}
     }
 }
 /*----------------------------- anchor jumps -----------------------------*/
-a.anchor{display: block; position: relative; top: -167px; visibility: hidden;}
+a.anchor{display: block; position: relative; top: -166px; visibility: hidden;}
 a.anchor.client{display: block; position: relative; top: -87px; visibility: hidden;}
 
 /*----------------------------- slider -----------------------------*/
@@ -594,13 +594,11 @@ h1{
 }
 
 .work.grey-stripe.slider .content img{
-	width: 496px;
 	height: 496px;
 	border:5px solid #fff;
 	background-color: #8e44ad;
 	display: inline-block;
 	margin-top: 0px;
-	margin-right: 40px;
 }
 
 .work.grey-stripe .content h1{
@@ -622,6 +620,15 @@ h1{
 	font-family: 'Signika Negative', sans-serif;
 	line-height: 22px;
 
+}
+
+.slider2 p{
+	width: 100% !important;
+	margin-left: 40px !important;
+}
+.slider2 h1{
+	width: 100% !important;
+	margin-left: 40px !important;
 }
 /*----------------------------- client gallery -----------------------------*/
 .gallery-item{
@@ -667,6 +674,7 @@ h1{
 	margin:0px;
 	padding: 15px;
 	border: none;
+	outline-color: rgb(142, 68, 173);
 }
 .contact textarea{
 	max-width: 100%;
@@ -739,7 +747,6 @@ h1{
 @media (max-height: 1328px){
 	.work.grey-stripe.slider .content img{
 
-		margin-right: 30px;
 	}
 	.work.grey-stripe .slideprev{
 		margin-left: 45px;
@@ -778,11 +785,11 @@ h1{
 
 	}
 	.work.grey-stripe .content img{
-		max-width: 40%;
-		width: 40%;
+		/*max-width: 40%;
+		width: 40%;*/
 		max-height: 396px;
-		margin-right: 5%;
-		margin-left: -43px;
+		/*margin-right: 5%;
+		margin-left: -43px;*/
 	}
 	.work.grey-stripe .slideprev h1, .work.grey-stripe .slideprev p{
 		width: 40%;
